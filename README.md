@@ -54,3 +54,8 @@ defaults write com.apple.dock workspaces-auto-swoosh -bool NO && killall Dock
 ```
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.DiskArbitration.diskarbitrationd.plist DADisableEjectNotification -bool YES && sudo pkill diskarbitrationd
 ```
+
+10. VSCode Keyrepeat for vim
+```
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+```
